@@ -916,7 +916,7 @@ public enum IconsMindsIcon: String, CaseIterable {
     case iconsminds_youtube = "\u{eb06}"
 }
 
-public extension IconsMinds {
+public extension IconsMindsIcon {
 
     /// Convierte "simple-icon-layers" (API) a `.simple_icon_layers`
     init?(name: String) {

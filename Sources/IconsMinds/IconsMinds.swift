@@ -3,18 +3,18 @@
 import SwiftUI
 
 public struct IconsMindsView: View {
-    private let icon: IconsMinds?
+    private let icon: IconsMindsIcon?
     private let size: CGFloat
     private let fontName: String
     
-    public init(_ icon: IconsMinds, size: CGFloat = 20, fontName: String = "Icons-Minds") {
+    public init(_ icon: IconsMindsIcon, size: CGFloat = 20, fontName: String = "Icons-Minds") {
         self.icon = icon
         self.size = size
         self.fontName = fontName
     }
     
     public init(_ icon: String, size: CGFloat = 20, fontName: String = "Icons-Minds") {
-        if let iconEnum = IconsMinds(name: icon) {
+        if let iconEnum = IconsMindsIcon(name: icon) {
             self.icon = iconEnum
         }else{
             self.icon = nil
