@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "IconsMinds",
             resources: [
-                .process("Resources/iconsmainds.ttf")
+                .process("Resources/iconsminds.ttf")
             ]
         ),
         

@@ -17,7 +17,7 @@ public enum IconsMindsFont {
     didRegister = true
 
     guard let url = Bundle.module.url(forResource: "Icons-Minds", withExtension: "ttf") else {
-      assertionFailure("iconsmainds.ttf no aparece en Bundle.module")
+      assertionFailure("iconsminds.ttf no aparece en Bundle.module")
       return
     }
 
